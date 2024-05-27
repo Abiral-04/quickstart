@@ -172,3 +172,10 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+// for slider
+$(document).ready(function(){
+  $('.carousel').carousel({
+    interval: 1000 // Adjust the interval (in milliseconds) as needed
+  });
+});
